@@ -23,3 +23,6 @@ At the Python interpreter prompt then enter::
 
 This should print out the Zen of Python as normal, but with an extra line
 added to the end.
+
+For the monkey patching of sklearn with afsklearn set the following:
+    AUTOWRAPT_BOOTSTRAP=afsklearn python
